@@ -1,5 +1,6 @@
 from langchain.prompts import PromptTemplate
 from langchain_google_genai import GoogleGenerativeAI
+import streamlit as st
 
 api_key = st.secrets["GOOGLE_API_KEY"]
 # api_key = os.getenv("GOOGLE_API_KEY")
