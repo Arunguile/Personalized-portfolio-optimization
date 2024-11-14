@@ -1,6 +1,6 @@
 pandas
 yfinance
-pypfopt==1.5.2
+git+https://github.com/robertmartin8/PyPortfolioOpt.git
 langchain
 os
 dotenv
