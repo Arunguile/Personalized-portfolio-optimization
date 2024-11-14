@@ -2,12 +2,12 @@ import numpy as np
 import joblib
 
 # -- Loading the trained model --
-model = joblib.load("./finModel.joblib")
+model = joblib.load("./finaModel.joblib")
 
 def calculate_risk_score(inputs):
     expected_features = model.n_features_in_
     print(f"Number of features expected by the model: {expected_features}")
-    
+
     input_data = np.array([inputs])
     predicted_risk_score = model.predict(input_data)[0]
 
