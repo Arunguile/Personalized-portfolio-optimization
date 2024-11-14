@@ -2,7 +2,7 @@ import numpy as np
 import joblib
 
 # -- Loading the trained model --
-model = joblib.load(r"C:\Users\arunkumarsr\pythonPrograms\jupyter_notebooks\personalizedPortfolioOptimization\finModel.joblib")
+model = joblib.load(r"/workspaces/Personalized-portfolio-optimization/rf_model_final.joblib")
 
 def calculate_risk_score(inputs):
     input_data = np.array([inputs])
