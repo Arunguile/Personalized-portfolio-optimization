@@ -73,6 +73,7 @@ with st.sidebar:
             checking_account_balance, total_assets, total_liabilities, monthly_income
         ]
         print(inputs)
+        
         predicted_risk_score, risk_category = calculate_risk_score(inputs)
         
         st.session_state["risk_category"]=risk_category
