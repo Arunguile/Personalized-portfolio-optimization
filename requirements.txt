@@ -1,0 +1,10 @@
+pandas
+yfinance
+pypfopt
+langchain
+os
+dotenv
+numpy
+joblib
+streamlit
+plotly
