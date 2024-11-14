@@ -3,7 +3,8 @@ from langchain_google_genai import GoogleGenerativeAI
 import os
 from dotenv import load_dotenv
 load_dotenv()
-api_key = os.getenv("GOOGLE_API_KEY")
+api_key = st.secrets["GOOGLE_API_KEY"]
+# api_key = os.getenv("GOOGLE_API_KEY")
   
 
 def optimize_portfolio_with_llm(risk_level,optimized_portfolio1,optimized_portfolio2,optimized_portfolio3):
