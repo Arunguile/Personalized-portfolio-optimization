@@ -86,6 +86,10 @@ with st.sidebar:
             dependents, home_ownership, monthly_expense, medical_insurance
         ]
         predicted_risk_score, risk_category = calculate_risk_score(inputs)
+        if predicted_risk_score>100:
+            predicted_risk_score=100
+        if predicted_risk_score<0:
+            predicted_risk_score=0
         st.session_state["risk_category"] = risk_category
         st.session_state["risk_score"] = predicted_risk_score
 
