@@ -2,7 +2,7 @@ import numpy as np
 import joblib
 
 # -- Loading the trained model --
-model = joblib.load("./finaModel.joblib")
+model = joblib.load("./financescore_Modelu.joblib")
 
 def calculate_risk_score(inputs):
     expected_features = model.n_features_in_
