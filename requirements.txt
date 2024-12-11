@@ -4,7 +4,7 @@ git+https://github.com/robertmartin8/PyPortfolioOpt.git
 langchain
 langchain_google_genai
 numpy
-joblib==1.1.1
+joblib
 streamlit
 plotly
-scikit-learn==1.2.2
+scikit-learn
